@@ -287,10 +287,6 @@ button {
 
 /* Work examples */
 
-.work__section {
-    padding-top: 0;
-}
-
 .section__title {
     margin-bottom: 50px;
 
@@ -300,6 +296,10 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-title-color);
+}
+
+.work__section {
+    padding-top: 0;
 }
 
 .work__list {
@@ -759,7 +759,7 @@ button {
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
-    fill: var(--icon-modal-color);;
+    fill: var(--icon-modal-color);
     transition: fill var(--anmtn-duration-cubic);
 }
 
